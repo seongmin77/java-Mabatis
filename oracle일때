@@ -1,0 +1,28 @@
+[config.xml]파일 설정
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Book" type="model.Book"/>        
+    </typeAliases>
+ 
+    <environments default="development">
+        <environment id="development">
+          <transactionManager type="JDBC"/>
+            <!--  connecting to Local MySql -->
+            <dataSource type="POOLED">
+                <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+                <property name="url" value="jdbc:oracle:thin:@url:1521:sid"/>
+                <property name="username" value="name"/>
+                <property name="password" value="password"/>
+            </dataSource>
+       </environment>
+    </environments>
+    <mappers>
+       <mapper resource="sqlmap/Book.xml"/>
+    </mappers>
+</configuration>
