@@ -1,5 +1,5 @@
 /* 조장이 올린다. 정리함
- * test git
+ * test git 안녕하세요 지현입니다 
  * 
  */
 import java.util.List;
@@ -10,6 +10,7 @@ import mybaits.MyBatisConnectionFactory;
 
 public class Main {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
