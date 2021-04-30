@@ -4,3 +4,6 @@ CREATE TABLE `jdbctest`.`book` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
+
+
+-- git devolop
