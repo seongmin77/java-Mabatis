@@ -1,4 +1,5 @@
-/* Mybatis사용시 순서
+/* 브랜치 생성 : daoBran
+ * Mybatis사용시 순서
  * 0. SqlSessionFactoryBulider : 설정 정보 읽어서 SqlSessionFactory 만드는 역할
  * 1. SqlSessionFactory 생성 : Mybatis와 Sql서버를 연결하는 객체,SqlSession을 만드는 역할
  * 2. SqlSession 생성(실제 질의문실행) : 데이터베이스 질의문을 활용하기위한 클래스 생성
